@@ -30,7 +30,7 @@ app.get('/sudhakarreddy', function(request, response) {
  
 
 //app.get("/ssr", function(req,res){
-app.get("/html", function(req,res){
+app.get("/ssr", function(req,res){
     res.set("Content-Type","text/html");
     //res.contentType("html") ; 
     res.write("<h2>Welcome</h2>");
